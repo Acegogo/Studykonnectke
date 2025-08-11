@@ -335,24 +335,24 @@ const CountryPage = () => {
       </section>
 
       {/* Universities and Programs */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-poppins font-bold text-primary mb-4">
               Top Universities & Programs
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-neutral-700 max-w-3xl mx-auto">
               Discover the best educational opportunities in {currentCountry.name}
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             <div>
               <h3 className="text-2xl font-poppins font-semibold text-primary mb-6">
                 Top Universities
@@ -365,11 +365,11 @@ const CountryPage = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
-                    className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300"
+                    className="bg-gray-50 rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300"
                   >
-                    <div className="flex items-center space-x-3">
-                      <GraduationCap size={20} className="text-primary" />
-                      <span className="font-inter font-medium">{university}</span>
+                    <div className="flex items-center space-x-3 text-neutral-800">
+                      <GraduationCap size={20} className="text-primary flex-shrink-0" />
+                      <span className="font-inter font-medium leading-snug break-words">{university}</span>
                     </div>
                   </motion.div>
                 ))}
@@ -380,7 +380,7 @@ const CountryPage = () => {
               <h3 className="text-2xl font-poppins font-semibold text-primary mb-6">
                 Popular Programs
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 gap-4">
                 {currentCountry.programs.map((program, index) => (
                   <motion.div
                     key={program}
@@ -388,10 +388,10 @@ const CountryPage = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
-                    className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 text-center"
+                    className="bg-gray-50 rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 text-center"
                   >
                     <BookOpen size={20} className="text-primary mx-auto mb-2" />
-                    <span className="font-inter font-medium text-sm">{program}</span>
+                    <span className="font-inter font-medium text-sm text-neutral-800 leading-snug break-words">{program}</span>
                   </motion.div>
                 ))}
               </div>
@@ -401,19 +401,19 @@ const CountryPage = () => {
       </section>
 
       {/* Costs and Deadlines */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-poppins font-bold text-primary mb-4">
               Costs & Deadlines
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-neutral-700 max-w-3xl mx-auto">
               Plan your budget and application timeline
             </p>
           </motion.div>
@@ -431,7 +431,7 @@ const CountryPage = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
-                    className="flex justify-between items-center bg-gray-50 rounded-lg p-4"
+                    className="flex justify-between items-center bg-gray-50 rounded-lg p-4 text-neutral-800"
                   >
                     <span className="font-inter font-medium capitalize">{category}:</span>
                     <span className="font-poppins font-semibold text-primary">{cost}</span>
@@ -452,7 +452,7 @@ const CountryPage = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     viewport={{ once: true }}
-                    className="flex justify-between items-center bg-gray-50 rounded-lg p-4"
+                    className="flex justify-between items-center bg-gray-50 rounded-lg p-4 text-neutral-800"
                   >
                     <span className="font-inter font-medium capitalize">{semester} Semester:</span>
                     <span className="font-poppins font-semibold text-primary">{deadline}</span>
@@ -465,30 +465,30 @@ const CountryPage = () => {
       </section>
 
       {/* Visa Information */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-poppins font-bold text-primary mb-4">
               Visa Information
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-neutral-700 max-w-3xl mx-auto">
               Everything you need to know about student visas
             </p>
           </motion.div>
 
-          <div className="bg-white rounded-xl shadow-lg p-8">
+          <div className="bg-white rounded-xl shadow-lg p-6 md:p-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-poppins font-semibold text-primary mb-4">
                   Visa Details
                 </h3>
-                <div className="space-y-3">
+                <div className="space-y-3 text-neutral-800">
                   <div className="flex justify-between">
                     <span className="font-medium">Visa Type:</span>
                     <span>{currentCountry.visa.type}</span>
@@ -504,7 +504,7 @@ const CountryPage = () => {
                 <h3 className="text-xl font-poppins font-semibold text-primary mb-4">
                   Requirements
                 </h3>
-                <div className="space-y-2">
+                <div className="space-y-2 text-neutral-800">
                   {currentCountry.visa.requirements?.map((requirement) => (
                     <div key={requirement} className="flex items-start space-x-2">
                       <CheckCircle size={16} className="text-accent mt-1 flex-shrink-0" />
