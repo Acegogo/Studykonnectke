@@ -350,13 +350,14 @@ const HomePage = () => {
                     <p className="text-neutral-600 mb-4">{country.perk}</p>
                     <div className="flex justify-between items-center">
                       <span className="text-sm text-neutral-500">Next Intake: {country.deadline}</span>
-                      <motion.button
+                      <motion.a
+                        href={`/destinations/${country.name.toLowerCase()}`}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="bg-primary text-white px-4 py-2 rounded-lg font-poppins font-semibold hover:bg-primary-dark transition-colors duration-200"
                       >
                         View Details
-                      </motion.button>
+                      </motion.a>
                     </div>
                   </div>
                 </motion.div>
