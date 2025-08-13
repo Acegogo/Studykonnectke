@@ -226,7 +226,7 @@ const HomePage = () => {
             className="space-y-8 glass rounded-2xl p-8 md:p-12"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-poppins font-bold leading-tight">
-              From Kenya to the World:
+              From Africa to the World:
               <br />
               <span className="text-gold">Study Abroad Made Simple</span>
             </h1>
@@ -476,7 +476,7 @@ const HomePage = () => {
               Ready to Start Your Journey?
             </h2>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Join hundreds of Kenyan students who have successfully studied abroad with StudyKonnect
+              Join hundreds of students who have successfully studied abroad with StudyKonnect
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <motion.a

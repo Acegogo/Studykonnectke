@@ -50,7 +50,7 @@ const Navbar = () => {
                 />
               </div>
               <div>
-                <h1 className={`text-xl font-poppins font-bold ${scrolled ? 'text-primary' : 'text-white'}`}>STUDY KONNECT KENYA</h1>
+                <h1 className={`text-xl font-poppins font-bold ${scrolled ? 'text-primary' : 'text-white'}`}>STUDYKONNECT AFRICA</h1>
                 <p className={`text-xs font-inter ${scrolled ? 'text-neutral-600' : 'text-neutral-100'}`}>The Leap Opportunity</p>
               </div>
             </div>

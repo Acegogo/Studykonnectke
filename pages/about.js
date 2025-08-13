@@ -72,7 +72,7 @@ const AboutPage = () => {
               Your Bridge to Global Education
             </h1>
             <p className="text-xl md:text-2xl text-neutral-100 max-w-3xl mx-auto">
-              Empowering Kenyan students to achieve their international education dreams
+              Empowering students to achieve their international education dreams
             </p>
           </motion.div>
         </div>
@@ -93,13 +93,13 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-6 text-neutral-600 leading-relaxed">
                 <p>
-                  StudyKonnect Africa is a leading education consultancy dedicated to helping Kenyan students 
+                  StudyKonnect is a leading education consultancy dedicated to helping students 
                   achieve their dreams of studying abroad. Founded with the vision of making international 
                   education accessible and affordable, we have successfully placed hundreds of students in 
                   prestigious universities across the globe.
                 </p>
                 <p>
-                  Our mission is to bridge the gap between Kenyan students and world-class education 
+                  Our mission is to bridge the gap between students and world-class education 
                   opportunities. We understand the unique challenges faced by African students and provide 
                   comprehensive support throughout the entire process - from initial consultation to 
                   post-arrival assistance.

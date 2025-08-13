@@ -50,12 +50,12 @@ const Footer = () => {
                 />
               </div>
               <div>
-                <h3 className="text-xl font-poppins font-bold">STUDY KONNECT KENYA</h3>
+                <h3 className="text-xl font-poppins font-bold">STUDYKONNECT AFRICA</h3>
                 <p className="text-sm text-neutral-300">The Leap Opportunity</p>
               </div>
             </div>
             <p className="text-neutral-300 mb-6 leading-relaxed">
-              Your trusted partner for international education. We help Kenyan students achieve their dreams of studying abroad with 100% visa success rate.
+              Your trusted partner for international education. We help students achieve their dreams of studying abroad with 100% visa success rate.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -161,7 +161,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-neutral-300 text-sm">
-              © {currentYear} StudyKonnect Kenya. All rights reserved.
+              © {currentYear} StudyKonnect Africa. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy" className="text-neutral-300 hover:text-white transition-colors duration-200">
