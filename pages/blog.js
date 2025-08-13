@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Calendar, Clock, User, ArrowRight, BookOpen, GraduationCap, Award } from 'lucide-react'
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const featuredPosts = [
   {
@@ -259,33 +261,33 @@ export default function BlogPage() {
         <meta name="description" content="Stay updated with the latest study abroad tips, scholarship opportunities, and educational insights from StudyKonnect Africa." />
       </Head>
 
+      <Navbar />
+
       {/* Hero Section */}
-      <section className="relative py-20 flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/Destination Images/background 2.jpg"
-            alt="Blog Background"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <motion.h1
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/Destination Images/background 2.jpg')" }}
+        />
+        <div className="absolute inset-0 bg-primary/70" />
+        
+        {/* Content */}
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-6xl font-poppins font-bold mb-6"
+            className="space-y-8 glass rounded-2xl p-8 md:p-12"
           >
-            Study Abroad Blog
-          </motion.h1>
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-neutral-200 max-w-3xl mx-auto"
-          >
-            Expert insights, tips, and guidance for your international education journey
-          </motion.p>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-poppins font-bold leading-tight">
+              Study Abroad Blog
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
+              Expert insights, tips, and guidance for your international education journey
+            </p>
+          </motion.div>
         </div>
       </section>
 
@@ -369,6 +371,8 @@ export default function BlogPage() {
           </motion.div>
         </div>
       </section>
+
+      <Footer />
     </>
   )
 } 
