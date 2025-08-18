@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { Phone, Mail, MessageCircle, MapPin, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react'
+import { Phone, Mail, MessageCircle, MapPin, Facebook, Linkedin, Video } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -28,10 +28,9 @@ const Footer = () => {
   }
 
   const socialLinks = [
-    { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: '#' },
-    { name: 'LinkedIn', icon: Linkedin, href: '#' },
-    { name: 'Twitter', icon: Twitter, href: '#' },
+    { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/share/16nrcXiLxv/' },
+    { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/charles-mwaura-a45442269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+    { name: 'TikTok', icon: Video, href: 'https://www.tiktok.com/@studykonnect4?is_from_webapp=1&sender_device=pc' },
   ]
 
   return (

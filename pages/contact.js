@@ -10,11 +10,9 @@ import {
   MapPin, 
   Clock,
   Send,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
-  Video
+  Facebook, 
+  Linkedin, 
+  Video 
 } from 'lucide-react'
 
 const ContactPage = () => {
@@ -68,11 +66,9 @@ const ContactPage = () => {
   ]
 
   const socialLinks = [
-    { name: 'Facebook', icon: Facebook, href: '#', color: 'bg-blue-600' },
-    { name: 'Instagram', icon: Instagram, href: '#', color: 'bg-pink-600' },
-    { name: 'LinkedIn', icon: Linkedin, href: '#', color: 'bg-blue-700' },
-    { name: 'Twitter', icon: Twitter, href: '#', color: 'bg-blue-400' },
-    { name: 'TikTok', icon: Video, href: '#', color: 'bg-black' }
+    { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/share/16nrcXiLxv/', color: 'bg-blue-600' },
+    { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/in/charles-mwaura-a45442269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', color: 'bg-blue-700' },
+    { name: 'TikTok', icon: Video, href: 'https://www.tiktok.com/@studykonnect4?is_from_webapp=1&sender_device=pc', color: 'bg-black' }
   ]
 
   const handleInputChange = (e) => {

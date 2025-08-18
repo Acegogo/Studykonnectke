@@ -32,7 +32,7 @@ const HomePage = () => {
         name: 'Germany', 
         flag: '🇩🇪', 
         perk: 'Free Tuition, No IELTS', 
-        deadline: 'March 31, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/germany%202.jpg',
         flagImage: 'https://flagcdn.com/w80/de.png'
       },
@@ -40,7 +40,7 @@ const HomePage = () => {
         name: 'Latvia', 
         flag: '🇱🇻', 
         perk: 'Low Cost, English Programs', 
-        deadline: 'April 15, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/latvia%202.jpg',
         flagImage: 'https://flagcdn.com/w80/lv.png'
       },
@@ -48,7 +48,7 @@ const HomePage = () => {
         name: 'Poland', 
         flag: '🇵🇱', 
         perk: 'Affordable, No IELTS', 
-        deadline: 'March 20, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/background%202.jpg',
         flagImage: 'https://flagcdn.com/w80/pl.png'
       },
@@ -56,7 +56,7 @@ const HomePage = () => {
         name: 'Cyprus', 
         flag: '🇨🇾', 
         perk: 'Mediterranean Lifestyle', 
-        deadline: 'April 30, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/cyprus%201.jpg',
         flagImage: 'https://flagcdn.com/w80/cy.png'
       },
@@ -64,7 +64,7 @@ const HomePage = () => {
         name: 'Malta', 
         flag: '🇲🇹', 
         perk: 'English Speaking, EU', 
-        deadline: 'May 15, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/malta%202.jpg',
         flagImage: 'https://flagcdn.com/w80/mt.png'
       },
@@ -72,7 +72,7 @@ const HomePage = () => {
         name: 'Italy', 
         flag: '🇮🇹', 
         perk: 'Rich Culture, Low Cost', 
-        deadline: 'March 25, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/background%201.jpg',
         flagImage: 'https://flagcdn.com/w80/it.png'
       },
@@ -80,7 +80,7 @@ const HomePage = () => {
         name: 'Turkey', 
         flag: '🇹🇷', 
         perk: 'Affordable, No IELTS', 
-        deadline: 'April 10, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/turkey%201.jpg',
         flagImage: 'https://flagcdn.com/w80/tr.png'
       },
@@ -90,7 +90,7 @@ const HomePage = () => {
         name: 'USA', 
         flag: '🇺🇸', 
         perk: 'Top Universities, OPT', 
-        deadline: 'May 1, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/USA.jpg',
         flagImage: 'https://flagcdn.com/w80/us.png'
       },
@@ -98,7 +98,7 @@ const HomePage = () => {
         name: 'Canada', 
         flag: '🇨🇦', 
         perk: 'PR Pathway, No IELTS', 
-        deadline: 'April 20, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/canada.jpg',
         flagImage: 'https://flagcdn.com/w80/ca.png'
       },
@@ -108,7 +108,7 @@ const HomePage = () => {
         name: 'India', 
         flag: '🇮🇳', 
         perk: 'Affordable, English Medium', 
-        deadline: 'March 15, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/background%201.jpg',
         flagImage: 'https://flagcdn.com/w80/in.png'
       },
@@ -116,7 +116,7 @@ const HomePage = () => {
         name: 'China', 
         flag: '🇨🇳', 
         perk: 'Scholarships Available', 
-        deadline: 'April 5, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/background%202.jpg',
         flagImage: 'https://flagcdn.com/w80/cn.png'
       },
@@ -124,7 +124,7 @@ const HomePage = () => {
         name: 'Japan', 
         flag: '🇯🇵', 
         perk: 'Technology Focus', 
-        deadline: 'May 10, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/New%20York%201.jpg',
         flagImage: 'https://flagcdn.com/w80/jp.png'
       },
@@ -132,7 +132,7 @@ const HomePage = () => {
         name: 'Malaysia', 
         flag: '🇲🇾', 
         perk: 'Twinning Programs', 
-        deadline: 'March 30, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/malta%201.jpg',
         flagImage: 'https://flagcdn.com/w80/my.png'
       },
@@ -140,7 +140,7 @@ const HomePage = () => {
         name: 'Singapore', 
         flag: '🇸🇬', 
         perk: 'Global Hub, English', 
-        deadline: 'April 25, 2025', 
+        deadline: 'September 2025', 
         image: '/Destination%20Images/New%20York%202.jpg',
         flagImage: 'https://flagcdn.com/w80/sg.png'
       },
@@ -232,7 +232,7 @@ const HomePage = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
-              No IELTS • Gap Acceptance • 100% Visa Success
+              With or without IELTS • Gap Acceptance • High visa success rate
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
