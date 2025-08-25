@@ -37,6 +37,14 @@ const HomePage = () => {
         flagImage: 'https://flagcdn.com/w80/de.png'
       },
       { 
+        name: 'United Kingdom', 
+        flag: '🇬🇧', 
+        perk: 'World-Class Education, Global Recognition', 
+        deadline: 'September 2025', 
+        image: '/Destination%20Images/UK%201.jpg',
+        flagImage: 'https://flagcdn.com/w80/gb.png'
+      },
+      { 
         name: 'Latvia', 
         flag: '🇱🇻', 
         perk: 'Low Cost, English Programs', 
@@ -133,7 +141,7 @@ const HomePage = () => {
         flag: '🇲🇾', 
         perk: 'Twinning Programs', 
         deadline: 'September 2025', 
-        image: '/Destination%20Images/malta%201.jpg',
+        image: '/Destination%20Images/Malaysia%201.jpg',
         flagImage: 'https://flagcdn.com/w80/my.png'
       },
       { 
@@ -143,6 +151,24 @@ const HomePage = () => {
         deadline: 'September 2025', 
         image: '/Destination%20Images/New%20York%202.jpg',
         flagImage: 'https://flagcdn.com/w80/sg.png'
+      },
+      { 
+        name: 'UAE', 
+        flag: '🇦🇪', 
+        perk: 'Modern Infrastructure, Business Hub', 
+        deadline: 'September 2025', 
+        image: '/Destination%20Images/UAE%201.jpg',
+        flagImage: 'https://flagcdn.com/w80/ae.png'
+      },
+    ]},
+    { name: 'Oceania', countries: [
+      { 
+        name: 'Australia', 
+        flag: '🇦🇺', 
+        perk: 'Quality Education, Work Opportunities', 
+        deadline: 'September 2025', 
+        image: '/Destination%20Images/Australia%201.jpg',
+        flagImage: 'https://flagcdn.com/w80/au.png'
       },
     ]},
   ]
@@ -161,23 +187,23 @@ const HomePage = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Muthoni',
-      country: 'Germany',
-      university: 'Technical University of Munich',
+      name: 'Naol Kemal',
+      country: 'Ethiopia',
+      university: 'Constructor University, Germany',
       quote: 'StudyKonnect made my dream of studying in Germany a reality. No IELTS needed and they handled everything!',
       rating: 5,
     },
     {
-      name: 'John Kamau',
-      country: 'Canada',
-      university: 'University of Toronto',
+      name: 'Ingabire Lilian',
+      country: 'Rwanda',
+      university: 'Nottingham Trent University UK',
       quote: 'The visa process was smooth and I got 100% support throughout. Highly recommended!',
       rating: 5,
     },
     {
-      name: 'Grace Wanjiku',
-      country: 'Malaysia',
-      university: 'University of Malaya',
+      name: 'David Mwesigye',
+      country: 'Uganda',
+      university: 'Chandigarh University India',
       quote: 'Affordable education with great quality. StudyKonnect found the perfect program for me.',
       rating: 5,
     },
@@ -232,7 +258,7 @@ const HomePage = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
-              With or without IELTS • Gap Acceptance • High visa success rate
+              With or without IELTS • Gap Acceptance for some students • High visa success rate
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

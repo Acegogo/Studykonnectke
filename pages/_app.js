@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>StudyKonnect Africa - Your Bridge to Global Education</title>
-        <meta name="description" content="StudyKonnect Africa helps students study abroad with no IELTS, gap acceptance, and 100% visa success. Explore destinations in Europe, America, and Asia." />
+        <meta name="description" content="StudyKonnect Africa helps students study abroad with no IELTS, gap acceptance for some students, and high visa success rate. Explore destinations in Europe, America, and Asia." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

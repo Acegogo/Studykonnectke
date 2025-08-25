@@ -52,9 +52,9 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'charles@studykonnect.co.ke',
-      href: 'mailto:charles@studykonnect.co.ke',
-      color: 'text-blue-500'
+      value: 'charles@studykonnectke.com',
+      href: 'mailto:charles@studykonnectke.com',
+      color: 'text-red-500'
     },
     {
       icon: MapPin,

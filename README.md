@@ -120,7 +120,7 @@ studykonnect-website/
 
 - **Phone**: +254 715 194 181
 - **WhatsApp**: +254 757 957 165
-- **Email**: charles@studykonnect.co.ke
+- **Email**: charles@studykonnectke.com
 - **Location**: Nairobi, Kenya
 
 ## 🌟 Performance Features

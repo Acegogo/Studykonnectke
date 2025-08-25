@@ -42,8 +42,11 @@ const CountryPage = () => {
     india: "/Destination%20Images/background%201.jpg",
     china: "/Destination%20Images/background%202.jpg",
     japan: "/Destination%20Images/New%20York%201.jpg",
-    malaysia: "/Destination%20Images/malta%202.jpg",
+    malaysia: "/Destination%20Images/Malaysia%201.jpg",
     singapore: "/Destination%20Images/New%20York%202.jpg",
+    uk: "/Destination%20Images/UK%201.jpg",
+    australia: "/Destination%20Images/Australia%201.jpg",
+    uae: "/Destination%20Images/UAE%201.jpg",
   }
 
   // Country data - crafted using standard requirements/benefits; posters available in /public/destination details for downloads
@@ -198,9 +201,42 @@ const CountryPage = () => {
       requirements: ['High school diploma', 'English proficiency', 'Funds', 'Student Pass'],
       universities: ['National University of Singapore', 'Nanyang Technological University'],
       programs: ['Engineering', 'Business', 'Computer Science', 'Sciences'],
-      costs: { tuition: 'S$15,000–S$35,000/year', living: 'S$1,200–S$2,000/month', accommodation: 'S$400–S$900/month', food: 'S$300–S$500/month', transport: 'S$80–S$120/month' },
-      deadlines: { fall: 'Feb–Mar', spring: 'Aug–Sep' },
-      visa: { type: 'Student Pass', processing: '3–6 weeks', requirements: ['Passport', 'Offer', 'Funds', 'Insurance'] }
+      costs: { tuition: 'S$15,000–S$35,000/year', living: 'S$1,500–S$2,500/month', accommodation: 'S$800–S$1,500/month', food: 'S$400–S$600/month', transport: 'S$100–S$150/month' },
+      deadlines: { fall: 'January 15', spring: 'August 15' },
+      visa: { type: 'Student Pass', processing: '2–4 weeks', requirements: ['Passport', 'Acceptance', 'Funds', 'Medical'] }
+    },
+    uk: {
+      name: 'United Kingdom', flag: '🇬🇧', capital: 'London', language: 'English', currency: 'British Pound (£)', population: '67 million',
+      description: 'Home to world-renowned universities with centuries of academic excellence and global recognition.',
+      benefits: ['World-class institutions', 'Global degree recognition', 'Rich cultural heritage', 'English-speaking environment'],
+      requirements: ['High school diploma', 'English proficiency (IELTS/TOEFL)', 'CAS letter', 'Financial proof', 'Tier 4 Student Visa'],
+      universities: ['University of Oxford', 'University of Cambridge', 'Imperial College London', 'University College London', 'London School of Economics'],
+      programs: ['Business & Management', 'Engineering', 'Computer Science', 'Medicine', 'Arts & Humanities', 'Sciences'],
+      costs: { tuition: '£15,000–£35,000/year', living: '£1,200–£2,000/month', accommodation: '£600–£1,200/month', food: '£200–£400/month', transport: '£80–£150/month' },
+      deadlines: { fall: 'January 15', spring: 'October 15' },
+      visa: { type: 'Tier 4 Student Visa', processing: '3–6 weeks', requirements: ['Passport', 'CAS letter', 'Financial proof', 'Tuberculosis test', 'Biometrics'] }
+    },
+    australia: {
+      name: 'Australia', flag: '🇦🇺', capital: 'Canberra', language: 'English', currency: 'Australian Dollar (A$)', population: '25 million',
+      description: 'Australia offers high-quality education with excellent work opportunities and a fantastic lifestyle.',
+      benefits: ['High-quality education', 'Post-study work opportunities', 'Beautiful cities', 'Multicultural environment'],
+      requirements: ['High school diploma', 'English proficiency (IELTS/TOEFL)', 'Confirmation of Enrolment', 'Financial proof', 'Student Visa (Subclass 500)'],
+      universities: ['University of Melbourne', 'University of Sydney', 'Australian National University', 'University of Queensland', 'Monash University'],
+      programs: ['Engineering', 'Business', 'Computer Science', 'Medicine', 'Environmental Sciences', 'Tourism & Hospitality'],
+      costs: { tuition: 'A$25,000–A$45,000/year', living: 'A$1,500–A$2,500/month', accommodation: 'A$800–A$1,500/month', food: 'A$300–A$500/month', transport: 'A$100–A$200/month' },
+      deadlines: { february: 'November 30', july: 'April 30' },
+      visa: { type: 'Student Visa (Subclass 500)', processing: '4–8 weeks', requirements: ['Passport', 'CoE', 'Financial proof', 'Health insurance', 'Medical exam'] }
+    },
+    uae: {
+      name: 'UAE', flag: '🇦🇪', capital: 'Abu Dhabi', language: 'Arabic/English', currency: 'UAE Dirham (AED)', population: '9.9 million',
+      description: 'The UAE offers modern infrastructure, world-class universities, and excellent business opportunities in a dynamic environment.',
+      benefits: ['Modern infrastructure', 'Business hub', 'Tax-free income', 'International environment', 'English-medium programs'],
+      requirements: ['High school diploma', 'English proficiency', 'Financial proof', 'Medical insurance', 'Student Residence Visa'],
+      universities: ['American University of Sharjah', 'University of Dubai', 'Heriot-Watt University Dubai', 'Middlesex University Dubai', 'Rochester Institute of Technology Dubai'],
+      programs: ['Business Administration', 'Engineering', 'Computer Science', 'Architecture', 'Hospitality Management', 'Media Studies'],
+      costs: { tuition: 'AED10,000–AED20,000/year', living: 'AED3,000–AED5,000/month', accommodation: 'AED1,500–AED3,000/month', food: 'AED800–AED1,200/month', transport: 'AED200–AED400/month' },
+      deadlines: { fall: 'June 30', spring: 'December 15' },
+      visa: { type: 'Student Residence Visa', processing: '2–4 weeks', requirements: ['Passport', 'Acceptance letter', 'Financial proof', 'Medical insurance', 'Security clearance'] }
     },
   }
 

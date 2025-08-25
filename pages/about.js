@@ -128,11 +128,11 @@ const AboutPage = () => {
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle size={20} className="text-gold mt-1" />
-                    <span className="text-neutral-800">100% visa success rate</span>
+                    <span className="text-neutral-800">high visa success rate</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle size={20} className="text-gold mt-1" />
-                    <span className="text-neutral-800">Gap acceptance for all students</span>
+                    <span className="text-neutral-800">Gap acceptance for some students</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle size={20} className="text-gold mt-1" />
@@ -260,7 +260,7 @@ const AboutPage = () => {
                 <span>Call Us</span>
               </motion.a>
               <motion.a
-                href="mailto:charles@studykonnect.co.ke"
+                href="mailto:charles@studykonnectke.com"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-primary px-8 py-4 rounded-lg font-poppins font-semibold text-lg hover:bg-neutral-100 transition-colors duration-200 flex items-center space-x-2"

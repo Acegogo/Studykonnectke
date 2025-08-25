@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-neutral-300 mb-6 leading-relaxed">
-              Your trusted partner for international education. We help students achieve their dreams of studying abroad with 100% visa success rate.
+              Your trusted partner for international education. We help students achieve their dreams of studying abroad with high visa success rate.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -138,10 +138,10 @@ const Footer = () => {
                 <div>
                   <p className="text-neutral-300">Email</p>
                   <a
-                    href="mailto:charles@studykonnect.co.ke"
+                    href="mailto:charles@studykonnectke.com"
                     className="text-white hover:text-gold transition-colors duration-200"
                   >
-                    charles@studykonnect.co.ke
+                    charles@studykonnectke.com
                   </a>
                 </div>
               </div>

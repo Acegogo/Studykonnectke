@@ -30,6 +30,17 @@ const DestinationsPage = () => {
           flagImage: 'https://flagcdn.com/w80/de.png'
         },
         { 
+          name: 'United Kingdom', 
+          flag: '🇬🇧', 
+          perk: 'World-Class Education, Global Recognition', 
+          deadline: 'September 2025',
+          cost: '£15,000-£35,000/year',
+          duration: '3-4 years',
+          slug: 'uk',
+          image: '/Destination%20Images/UK%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/gb.png'
+        },
+        { 
           name: 'Latvia', 
           flag: '🇱🇻', 
           perk: 'Low Cost, English Programs', 
@@ -170,7 +181,7 @@ const DestinationsPage = () => {
           cost: 'RM15,000-RM30,000/year',
           duration: '3-4 years',
           slug: 'malaysia',
-          image: '/Destination%20Images/malta%202.jpg',
+          image: '/Destination%20Images/Malaysia%201.jpg',
           flagImage: 'https://flagcdn.com/w80/my.png'
         },
         { 
@@ -183,6 +194,34 @@ const DestinationsPage = () => {
           slug: 'singapore',
           image: '/Destination%20Images/New%20York%202.jpg',
           flagImage: 'https://flagcdn.com/w80/sg.png'
+        },
+        { 
+          name: 'UAE', 
+          flag: '🇦🇪', 
+          perk: 'Modern Infrastructure, Business Hub', 
+          deadline: 'September 2025',
+          cost: 'AED10,000-AED20,000/year',
+          duration: '3-4 years',
+          slug: 'uae',
+          image: '/Destination%20Images/UAE%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/ae.png'
+        },
+      ]
+    },
+    { 
+      name: 'Oceania', 
+      description: 'Study in Australia with excellent work opportunities',
+      countries: [
+        { 
+          name: 'Australia', 
+          flag: '🇦🇺', 
+          perk: 'Quality Education, Work Opportunities', 
+          deadline: 'September 2025',
+          cost: 'A$25,000-A$45,000/year',
+          duration: '3-4 years',
+          slug: 'australia',
+          image: '/Destination%20Images/Australia%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/au.png'
         },
       ]
     },
