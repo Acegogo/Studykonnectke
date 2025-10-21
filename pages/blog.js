@@ -179,7 +179,7 @@ By following these steps, students can navigate the study abroad process more ef
     image: '/Destination Images/New York 1.jpg',
     featured: true,
     author: 'StudyKonnect Team',
-    date: 'January 10, 2025',
+    date: 'September 20, 2025',
     readTime: '10 min read',
     category: 'Application Process'
   }
