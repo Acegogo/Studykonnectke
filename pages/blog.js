@@ -138,7 +138,7 @@ By following these steps, you can navigate the study abroad process more effecti
     image: '/Destination Images/background 1.jpg',
     featured: true,
     author: 'StudyKonnect Team',
-    date: 'January 12, 2025',
+    date: 'May 12, 2025',
     readTime: '6 min read',
     category: 'Study Abroad'
   },
@@ -259,7 +259,7 @@ Good luck, and get ready to make your January start a success!`,
     image: '/Destination Images/UK 1.jpg',
     featured: true,
     author: 'StudyKonnect Team',
-    date: 'January 15, 2025',
+    date: 'November 01, 2025',
     readTime: '12 min read',
     category: 'Application Process'
   }
