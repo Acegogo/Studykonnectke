@@ -14,92 +14,92 @@ const DestinationsPage = () => {
   })
 
   const continents = [
-    { 
-      name: 'Europe', 
+    {
+      name: 'Europe',
       description: 'Explore world-class education in historic European cities',
       countries: [
-        { 
-          name: 'Germany', 
-          flag: '🇩🇪', 
-          perk: 'Free Tuition, No IELTS', 
-          deadline: 'January 2026',
+        {
+          name: 'Germany',
+          flag: '🇩🇪',
+          perk: 'Free Tuition, No IELTS',
+          deadline: 'September 2026',
           cost: '€0-€500/year',
           duration: '3-4 years',
           slug: 'germany',
           image: '/Destination%20Images/germany%201.jpg',
           flagImage: 'https://flagcdn.com/w80/de.png'
         },
-        { 
-          name: 'United Kingdom', 
-          flag: '🇬🇧', 
-          perk: 'World-Class Education, Global Recognition', 
-          deadline: 'January 2026',
+        {
+          name: 'United Kingdom',
+          flag: '🇬🇧',
+          perk: 'World-Class Education, Global Recognition',
+          deadline: 'September 2026',
           cost: '£15,000-£35,000/year',
           duration: '3-4 years',
           slug: 'uk',
           image: '/Destination%20Images/UK%201.jpg',
           flagImage: 'https://flagcdn.com/w80/gb.png'
         },
-        { 
-          name: 'Latvia', 
-          flag: '🇱🇻', 
-          perk: 'Low Cost, English Programs', 
-          deadline: 'January 2026',
+        {
+          name: 'Latvia',
+          flag: '🇱🇻',
+          perk: 'Low Cost, English Programs',
+          deadline: 'September 2026',
           cost: '€2,000-€4,000/year',
           duration: '3-4 years',
           slug: 'latvia',
           image: '/Destination%20Images/latvia%201.jpg',
           flagImage: 'https://flagcdn.com/w80/lv.png'
         },
-        { 
-          name: 'Poland', 
-          flag: '🇵🇱', 
-          perk: 'Affordable, No IELTS', 
-          deadline: 'January 2026',
+        {
+          name: 'Poland',
+          flag: '🇵🇱',
+          perk: 'Affordable, No IELTS',
+          deadline: 'September 2026',
           cost: '€1,500-€3,000/year',
           duration: '3-4 years',
           slug: 'poland',
           image: '/Destination%20Images/background%202.jpg',
           flagImage: 'https://flagcdn.com/w80/pl.png'
         },
-        { 
-          name: 'Cyprus', 
-          flag: '🇨🇾', 
-          perk: 'Mediterranean Lifestyle', 
-          deadline: 'January 2026',
+        {
+          name: 'Cyprus',
+          flag: '🇨🇾',
+          perk: 'Mediterranean Lifestyle',
+          deadline: 'September 2026',
           cost: '€3,000-€6,000/year',
           duration: '3-4 years',
           slug: 'cyprus',
           image: '/Destination%20Images/cyprus%202.jpg',
           flagImage: 'https://flagcdn.com/w80/cy.png'
         },
-        { 
-          name: 'Malta', 
-          flag: '🇲🇹', 
-          perk: 'English Speaking, EU', 
-          deadline: 'January 2026',
+        {
+          name: 'Malta',
+          flag: '🇲🇹',
+          perk: 'English Speaking, EU',
+          deadline: 'September 2026',
           cost: '€4,000-€8,000/year',
           duration: '3-4 years',
           slug: 'malta',
           image: '/Destination%20Images/malta%201.jpg',
           flagImage: 'https://flagcdn.com/w80/mt.png'
         },
-        { 
-          name: 'Italy', 
-          flag: '🇮🇹', 
-          perk: 'Rich Culture, Low Cost', 
-          deadline: 'January 2026',
+        {
+          name: 'Italy',
+          flag: '🇮🇹',
+          perk: 'Rich Culture, Low Cost',
+          deadline: 'September 2026',
           cost: '€1,000-€3,000/year',
           duration: '3-4 years',
           slug: 'italy',
           image: '/Destination%20Images/background%201.jpg',
           flagImage: 'https://flagcdn.com/w80/it.png'
         },
-        { 
-          name: 'Turkey', 
-          flag: '🇹🇷', 
-          perk: 'Affordable, No IELTS', 
-          deadline: 'January 2026',
+        {
+          name: 'Turkey',
+          flag: '🇹🇷',
+          perk: 'Affordable, No IELTS',
+          deadline: 'September 2026',
           cost: '€1,000-€3,000/year',
           duration: '3-4 years',
           slug: 'turkey',
@@ -108,26 +108,26 @@ const DestinationsPage = () => {
         },
       ]
     },
-    { 
-      name: 'America', 
+    {
+      name: 'America',
       description: 'Study in North America with excellent career opportunities',
       countries: [
-        { 
-          name: 'USA', 
-          flag: '🇺🇸', 
-          perk: 'Top Universities, OPT', 
-          deadline: 'January 2026',
+        {
+          name: 'USA',
+          flag: '🇺🇸',
+          perk: 'Top Universities, OPT',
+          deadline: 'September 2026',
           cost: '$20,000-$50,000/year',
           duration: '4 years',
           slug: 'usa',
           image: '/Destination%20Images/USA.jpg',
           flagImage: 'https://flagcdn.com/w80/us.png'
         },
-        { 
-          name: 'Canada', 
-          flag: '🇨🇦', 
-          perk: 'PR Pathway, No IELTS', 
-          deadline: 'January 2026',
+        {
+          name: 'Canada',
+          flag: '🇨🇦',
+          perk: 'PR Pathway, No IELTS',
+          deadline: 'September 2026',
           cost: 'C$15,000-C$30,000/year',
           duration: '3-4 years',
           slug: 'canada',
@@ -136,70 +136,70 @@ const DestinationsPage = () => {
         },
       ]
     },
-    { 
-      name: 'Asia', 
+    {
+      name: 'Asia',
       description: 'Discover affordable education in dynamic Asian countries',
       countries: [
-        { 
-          name: 'India', 
-          flag: '🇮🇳', 
-          perk: 'Affordable, English Medium', 
-          deadline: 'January 2026',
+        {
+          name: 'India',
+          flag: '🇮🇳',
+          perk: 'Affordable, English Medium',
+          deadline: 'September 2026',
           cost: '₹50,000-₹2,00,000/year',
           duration: '3-4 years',
           slug: 'india',
           image: '/Destination%20Images/background%202.jpg',
           flagImage: 'https://flagcdn.com/w80/in.png'
         },
-        { 
-          name: 'China', 
-          flag: '🇨🇳', 
-          perk: 'Scholarships Available', 
-          deadline: 'January 2026',
+        {
+          name: 'China',
+          flag: '🇨🇳',
+          perk: 'Scholarships Available',
+          deadline: 'September 2026',
           cost: '¥20,000-¥50,000/year',
           duration: '3-4 years',
           slug: 'china',
           image: '/Destination%20Images/background%201.jpg',
           flagImage: 'https://flagcdn.com/w80/cn.png'
         },
-        { 
-          name: 'Japan', 
-          flag: '🇯🇵', 
-          perk: 'Technology Focus', 
-          deadline: 'January 2026',
+        {
+          name: 'Japan',
+          flag: '🇯🇵',
+          perk: 'Technology Focus',
+          deadline: 'September 2026',
           cost: '¥500,000-¥1,000,000/year',
           duration: '4 years',
           slug: 'japan',
           image: '/Destination%20Images/New%20York%201.jpg',
           flagImage: 'https://flagcdn.com/w80/jp.png'
         },
-        { 
-          name: 'Malaysia', 
-          flag: '🇲🇾', 
-          perk: 'Twinning Programs', 
-          deadline: 'January 2026',
+        {
+          name: 'Malaysia',
+          flag: '🇲🇾',
+          perk: 'Twinning Programs',
+          deadline: 'September 2026',
           cost: 'RM15,000-RM30,000/year',
           duration: '3-4 years',
           slug: 'malaysia',
           image: '/Destination%20Images/Malaysia%201.jpg',
           flagImage: 'https://flagcdn.com/w80/my.png'
         },
-        { 
-          name: 'Singapore', 
-          flag: '🇸🇬', 
-          perk: 'Global Hub, English', 
-          deadline: 'January 2026',
+        {
+          name: 'Singapore',
+          flag: '🇸🇬',
+          perk: 'Global Hub, English',
+          deadline: 'September 2026',
           cost: 'S$15,000-S$35,000/year',
           duration: '3-4 years',
           slug: 'singapore',
           image: '/Destination%20Images/New%20York%202.jpg',
           flagImage: 'https://flagcdn.com/w80/sg.png'
         },
-        { 
-          name: 'UAE', 
-          flag: '🇦🇪', 
-          perk: 'Modern Infrastructure, Business Hub', 
-          deadline: 'January 2026',
+        {
+          name: 'UAE',
+          flag: '🇦🇪',
+          perk: 'Modern Infrastructure, Business Hub',
+          deadline: 'September 2026',
           cost: 'AED10,000-AED20,000/year',
           duration: '3-4 years',
           slug: 'uae',
@@ -208,15 +208,15 @@ const DestinationsPage = () => {
         },
       ]
     },
-    { 
-      name: 'Oceania', 
+    {
+      name: 'Oceania',
       description: 'Study in Australia with excellent work opportunities',
       countries: [
-        { 
-          name: 'Australia', 
-          flag: '🇦🇺', 
-          perk: 'Quality Education, Work Opportunities', 
-          deadline: 'January 2026',
+        {
+          name: 'Australia',
+          flag: '🇦🇺',
+          perk: 'Quality Education, Work Opportunities',
+          deadline: 'September 2026',
           cost: 'A$25,000-A$45,000/year',
           duration: '3-4 years',
           slug: 'australia',
@@ -251,7 +251,7 @@ const DestinationsPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/Destination%20Images/background%202.jpg')" }} />
@@ -286,11 +286,10 @@ const DestinationsPage = () => {
                 key={continent.name}
                 variants={itemVariants}
                 onClick={() => setActiveContinent(continent.name)}
-                className={`px-8 py-4 rounded-lg font-poppins font-semibold transition-all duration-300 ${
-                  activeContinent === continent.name
+                className={`px-8 py-4 rounded-lg font-poppins font-semibold transition-all duration-300 ${activeContinent === continent.name
                     ? 'bg-primary text-white shadow-lg'
                     : 'bg-white text-neutral-600 hover:text-primary hover:bg-neutral-100'
-                }`}
+                  }`}
               >
                 {continent.name}
               </motion.button>
@@ -351,7 +350,7 @@ const DestinationsPage = () => {
                   <div className="p-6">
                     <h3 className="text-xl font-poppins font-semibold text-primary mb-2">{country.name}</h3>
                     <p className="text-neutral-600 mb-4">{country.perk}</p>
-                    
+
                     <div className="space-y-3 mb-6">
                       <div className="flex items-center space-x-2 text-sm text-neutral-600">
                         <DollarSign size={16} />
@@ -366,7 +365,7 @@ const DestinationsPage = () => {
                         <span>Next Intake: {country.deadline}</span>
                       </div>
                     </div>
-                    
+
                     <Link
                       href={`/destinations/${country.slug}`}
                       className="inline-flex items-center space-x-2 bg-primary text-white px-6 py-3 rounded-lg font-poppins font-semibold hover:bg-primary-dark transition-colors duration-200"

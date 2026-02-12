@@ -3,16 +3,16 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { 
-  Play, 
-  ArrowRight, 
-  MessageCircle, 
-  Globe, 
-  GraduationCap, 
-  FileText, 
-  CheckCircle, 
-  Users, 
-  Phone, 
+import {
+  Play,
+  ArrowRight,
+  MessageCircle,
+  Globe,
+  GraduationCap,
+  FileText,
+  CheckCircle,
+  Users,
+  Phone,
   Mail,
   Star,
   Quote,
@@ -27,150 +27,158 @@ const HomePage = () => {
   })
 
   const continents = [
-    { name: 'Europe', countries: [
-      { 
-        name: 'Germany', 
-        flag: '🇩🇪', 
-        perk: 'Free Tuition, No IELTS', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/germany%202.jpg',
-        flagImage: 'https://flagcdn.com/w80/de.png'
-      },
-      { 
-        name: 'United Kingdom', 
-        flag: '🇬🇧', 
-        perk: 'World-Class Education, Global Recognition', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/UK%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/gb.png'
-      },
-      { 
-        name: 'Latvia', 
-        flag: '🇱🇻', 
-        perk: 'Low Cost, English Programs', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/latvia%202.jpg',
-        flagImage: 'https://flagcdn.com/w80/lv.png'
-      },
-      { 
-        name: 'Poland', 
-        flag: '🇵🇱', 
-        perk: 'Affordable, No IELTS', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/background%202.jpg',
-        flagImage: 'https://flagcdn.com/w80/pl.png'
-      },
-      { 
-        name: 'Cyprus', 
-        flag: '🇨🇾', 
-        perk: 'Mediterranean Lifestyle', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/cyprus%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/cy.png'
-      },
-      { 
-        name: 'Malta', 
-        flag: '🇲🇹', 
-        perk: 'English Speaking, EU', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/malta%202.jpg',
-        flagImage: 'https://flagcdn.com/w80/mt.png'
-      },
-      { 
-        name: 'Italy', 
-        flag: '🇮🇹', 
-        perk: 'Rich Culture, Low Cost', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/background%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/it.png'
-      },
-      { 
-        name: 'Turkey', 
-        flag: '🇹🇷', 
-        perk: 'Affordable, No IELTS', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/turkey%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/tr.png'
-      },
-    ]},
-    { name: 'America', countries: [
-      { 
-        name: 'USA', 
-        flag: '🇺🇸', 
-        perk: 'Top Universities, OPT', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/USA.jpg',
-        flagImage: 'https://flagcdn.com/w80/us.png'
-      },
-      { 
-        name: 'Canada', 
-        flag: '🇨🇦', 
-        perk: 'PR Pathway, No IELTS', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/canada.jpg',
-        flagImage: 'https://flagcdn.com/w80/ca.png'
-      },
-    ]},
-    { name: 'Asia', countries: [
-      { 
-        name: 'India', 
-        flag: '🇮🇳', 
-        perk: 'Affordable, English Medium', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/background%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/in.png'
-      },
-      { 
-        name: 'China', 
-        flag: '🇨🇳', 
-        perk: 'Scholarships Available', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/background%202.jpg',
-        flagImage: 'https://flagcdn.com/w80/cn.png'
-      },
-      { 
-        name: 'Japan', 
-        flag: '🇯🇵', 
-        perk: 'Technology Focus', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/New%20York%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/jp.png'
-      },
-      { 
-        name: 'Malaysia', 
-        flag: '🇲🇾', 
-        perk: 'Twinning Programs', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/Malaysia%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/my.png'
-      },
-      { 
-        name: 'Singapore', 
-        flag: '🇸🇬', 
-        perk: 'Global Hub, English', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/New%20York%202.jpg',
-        flagImage: 'https://flagcdn.com/w80/sg.png'
-      },
-      { 
-        name: 'UAE', 
-        flag: '🇦🇪', 
-        perk: 'Modern Infrastructure, Business Hub', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/UAE%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/ae.png'
-      },
-    ]},
-    { name: 'Oceania', countries: [
-      { 
-        name: 'Australia', 
-        flag: '🇦🇺', 
-        perk: 'Quality Education, Work Opportunities', 
-        deadline: 'January 2026', 
-        image: '/Destination%20Images/Australia%201.jpg',
-        flagImage: 'https://flagcdn.com/w80/au.png'
-      },
-    ]},
+    {
+      name: 'Europe', countries: [
+        {
+          name: 'Germany',
+          flag: '🇩🇪',
+          perk: 'Free Tuition, No IELTS',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/germany%202.jpg',
+          flagImage: 'https://flagcdn.com/w80/de.png'
+        },
+        {
+          name: 'United Kingdom',
+          flag: '🇬🇧',
+          perk: 'World-Class Education, Global Recognition',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/UK%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/gb.png'
+        },
+        {
+          name: 'Latvia',
+          flag: '🇱🇻',
+          perk: 'Low Cost, English Programs',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/latvia%202.jpg',
+          flagImage: 'https://flagcdn.com/w80/lv.png'
+        },
+        {
+          name: 'Poland',
+          flag: '🇵🇱',
+          perk: 'Affordable, No IELTS',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/background%202.jpg',
+          flagImage: 'https://flagcdn.com/w80/pl.png'
+        },
+        {
+          name: 'Cyprus',
+          flag: '🇨🇾',
+          perk: 'Mediterranean Lifestyle',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/cyprus%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/cy.png'
+        },
+        {
+          name: 'Malta',
+          flag: '🇲🇹',
+          perk: 'English Speaking, EU',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/malta%202.jpg',
+          flagImage: 'https://flagcdn.com/w80/mt.png'
+        },
+        {
+          name: 'Italy',
+          flag: '🇮🇹',
+          perk: 'Rich Culture, Low Cost',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/background%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/it.png'
+        },
+        {
+          name: 'Turkey',
+          flag: '🇹🇷',
+          perk: 'Affordable, No IELTS',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/turkey%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/tr.png'
+        },
+      ]
+    },
+    {
+      name: 'America', countries: [
+        {
+          name: 'USA',
+          flag: '🇺🇸',
+          perk: 'Top Universities, OPT',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/USA.jpg',
+          flagImage: 'https://flagcdn.com/w80/us.png'
+        },
+        {
+          name: 'Canada',
+          flag: '🇨🇦',
+          perk: 'PR Pathway, No IELTS',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/canada.jpg',
+          flagImage: 'https://flagcdn.com/w80/ca.png'
+        },
+      ]
+    },
+    {
+      name: 'Asia', countries: [
+        {
+          name: 'India',
+          flag: '🇮🇳',
+          perk: 'Affordable, English Medium',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/background%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/in.png'
+        },
+        {
+          name: 'China',
+          flag: '🇨🇳',
+          perk: 'Scholarships Available',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/background%202.jpg',
+          flagImage: 'https://flagcdn.com/w80/cn.png'
+        },
+        {
+          name: 'Japan',
+          flag: '🇯🇵',
+          perk: 'Technology Focus',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/New%20York%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/jp.png'
+        },
+        {
+          name: 'Malaysia',
+          flag: '🇲🇾',
+          perk: 'Twinning Programs',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/Malaysia%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/my.png'
+        },
+        {
+          name: 'Singapore',
+          flag: '🇸🇬',
+          perk: 'Global Hub, English',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/New%20York%202.jpg',
+          flagImage: 'https://flagcdn.com/w80/sg.png'
+        },
+        {
+          name: 'UAE',
+          flag: '🇦🇪',
+          perk: 'Modern Infrastructure, Business Hub',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/UAE%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/ae.png'
+        },
+      ]
+    },
+    {
+      name: 'Oceania', countries: [
+        {
+          name: 'Australia',
+          flag: '🇦🇺',
+          perk: 'Quality Education, Work Opportunities',
+          deadline: 'September 2026',
+          image: '/Destination%20Images/Australia%201.jpg',
+          flagImage: 'https://flagcdn.com/w80/au.png'
+        },
+      ]
+    },
   ]
 
   const processSteps = [
@@ -233,7 +241,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
@@ -242,7 +250,7 @@ const HomePage = () => {
           style={{ backgroundImage: "url('/Destination%20Images/background%201.jpg')" }}
         />
         <div className="absolute inset-0 bg-primary/70" />
-        
+
         {/* Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <motion.div
@@ -256,11 +264,11 @@ const HomePage = () => {
               <br />
               <span className="text-gold">Study Abroad Made Simple</span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
               With or without IELTS • Gap Acceptance for some students • High visa success rate
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -271,7 +279,7 @@ const HomePage = () => {
                 <span>Explore Destinations</span>
                 <ArrowRight size={20} />
               </motion.button>
-              
+
               <motion.a
                 href="https://wa.me/254757957165"
                 whileHover={{ scale: 1.05 }}
@@ -284,7 +292,7 @@ const HomePage = () => {
             </div>
           </motion.div>
         </div>
-        
+
         {/* Floating WhatsApp Button */}
         <motion.a
           href="https://wa.me/254757957165"
@@ -327,11 +335,10 @@ const HomePage = () => {
                   key={continent.name}
                   variants={itemVariants}
                   onClick={() => setActiveContinent(continent.name)}
-                  className={`px-6 py-3 rounded-md font-poppins font-semibold transition-all duration-300 ${
-                    activeContinent === continent.name
+                  className={`px-6 py-3 rounded-md font-poppins font-semibold transition-all duration-300 ${activeContinent === continent.name
                       ? 'bg-primary text-white shadow-lg'
                       : 'text-neutral-600 hover:text-primary hover:bg-neutral-100'
-                  }`}
+                    }`}
                 >
                   {continent.name}
                 </motion.button>
